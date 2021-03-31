@@ -1,0 +1,77 @@
+body {
+  background-color: #F9DB6D !important;
+}
+
+.appapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.toolbar {
+  background-color: #8E5572;
+  padding: 0.5rem;
+  font-size: 1.75rem;
+  font-weight: 200;
+  color: #F4EDED;
+  border: 1px solid #443850;
+  -webkit-box-shadow: 0px 0px 10px #8E5572;
+  -moz-box-shadow: 0px 0px 10px #8E5572;
+  -ms-box-shadow: 0px 0px 10px #8E5572;
+  box-shadow: 0px 0px 10px #8E5572;
+  display: relative;
+}
+.toolbar i {
+  padding: 0.375rem;
+}
+.toolbar i:hover {
+  color: #8AF3FF;
+}
+.toolbar .to-the-right {
+  color: #E3B9BC;
+  float: right;
+}
+
+.editorWrapper,
+.previewerWrapper {
+  background-color: #E3B9BC;
+  width: 70%;
+  min-width: 350px;
+  margin: 2rem;
+  border: 1px solid #443850;
+  -webkit-box-shadow: 0px 0px 13px #8E5572;
+  -moz-box-shadow: 0px 0px 13px #8E5572;
+  -ms-box-shadow: 0px 0px 13px #8E5572;
+  box-shadow: 0px 0px 13px #8E5572;
+}
+
+.editorWrapper textarea {
+  width: 100%;
+  min-height: 270px;
+  padding: 1rem;
+  background-color: #F4EDED;
+  color: #443850;
+}
+
+.previewerWrapper {
+  width: 85%;
+}
+.previewerWrapper #preview {
+  padding: 0.8rem;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 550px) {
+  .appapp {
+    padding: 1rem;
+  }
+
+  .editorWrapper,
+.previewerWrapper {
+    margin: 1rem;
+  }
+}
